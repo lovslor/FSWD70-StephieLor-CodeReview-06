@@ -26,5 +26,5 @@ arr[4] = new Location("Cathédrale Notre-Dame de Paris", "6 Parvis Notre-Dame - 
 arr[5] = new Location("Tour Eiffel", "Champ de Mars, 5 Avenue Anatole France", "75007", "Paris", "tourdeeiffel.jpg");
 //display the arr in the HTML file
 for (var i = 0; i < arr.length; i++) {
-    loc.innerHTML += arr[i].display();
+    main.innerHTML += arr[i].display();
 }

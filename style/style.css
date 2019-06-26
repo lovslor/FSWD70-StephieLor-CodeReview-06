@@ -6,3 +6,11 @@
 body {
 	background-color: #b6bea8;
 }
+
+
+img {
+    object-fit: cover;
+    height: 400px;
+    width: 90%;
+    margin-left: 5%;    
+}

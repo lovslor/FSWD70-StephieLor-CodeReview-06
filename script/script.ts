@@ -1,5 +1,3 @@
-// let main = document.getElementById("main"); content will be displayed 
-
 class Place {
 	name="";
 	city="";
@@ -26,6 +24,8 @@ class Place {
 	}
 }
 
+let main = document.getElementById("main"); 
+
 
 var arr = new Array();
 
@@ -39,6 +39,7 @@ arr[5] = new Place("Tour Eiffel", "Champ de Mars, 5 Avenue Anatole France", "750
 	
 		for (var i = 0; i < arr.length; i++) {
 
-			loc.innerHTML += arr[i].display();
+			main.innerHTML += arr[i].display();
 		}
+
 
